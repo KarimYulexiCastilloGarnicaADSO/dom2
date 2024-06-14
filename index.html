@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<cabeza>
+<meta juego de caracteres="UTF-8">
+<meta nombre="viewport" content="ancho=ancho-dispositivo, escala-inicial=1.0">
+<título>DOM - ADSO</título>
+<enlace rel="hoja de estilo" href="estilos.css">
+<enlace href=' https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css 'rel='hoja de estilo'>
+</cabeza>
+
+<cuerpo>
+<encabezado>
+<div class="contenedor">
+<h1>DOM de JavaScript</h1>
+</div>
+</encabezado>
+<principal>
+<sección>
+<div class="contenedor">
+<h2 id="documento">
+QUE ES EL DOM
+</h2>
+<p>
+El modelo de objeto de documento (DOM) es una interfaz de programación para los documentos HTML y XML.
+Facilita una representación estructurada del documento y define de qué manera los programas pueden acceder, al
+fin de modificar, tanto su estructura, estilo y contenido. El DOM da una representación del documento como un
+grupo de nudos y objetos
+estructurados que tienen propiedades y métodos. Esencialmente, conecta las páginas web a scripts o lenguajes
+de programación.
+</p>
+<h2 id="api">
+¿Qué es API?
+</h2>
+<p>
+API es el acrónimo de "Application Programming Interface" (Interfaz de programación de aplicaciones), y es una
+colección de clases, interfaces, propiedades, métodos y otras estructuras de código que los desarrolladores
+pueden utilizar para acceder a la funcionalidad de una aplicación.
+</p>
+<p>
+Representación del HTML
+</p>
+<p clase="estructura">
+Estructura de datos del ARBOL
+</p>
+<div clase="tarjeta">
+<ul clase="lista">
+<li class="item">Crear</li>
+<li class="item">Modificar</li>
+<li class="item">Transportadora</li>
+</ul>
+</div>
+<div clase="tarjeta">
+<ul clase="lista">
+<li clase="elemento">
+https://es.javascript.info/browser-environment Entorno del navegador</a>
+</li>
+<li clase="elemento">
+https://es.javascript.info/dom-nodes Árbol del Modelo de Objetos del
+documento</a>
+</li>
+<li clase="elemento">
+https://es.javascript.info/dom-navigation Recorriendo el DOM</a>
+</li>
+<li clase="elemento">
+https://es.javascript.info/searching-elements-dom Buscar elementos del DOM</a>
+</li>
+<li clase="elemento">
+https://es.javascript.info/basic-dom-node-properties Propiedades del Nodo: tipo,
+etiqueta y contenido</a>
+</li>
+<li clase="elemento">
+https://es.javascript.info/dom-attributes-and-properties Atributos y
+propiedades</a>
+</li>
+<li clase="elemento">
+https://es.javascript.info/modifying-document Modificando el contenido</a>
+</li>
+<li clase="elemento">
+https://es.javascript.info/styles-and-classes Estilos y clases</a>
+</li>
+<li clase="elemento">
+https://es.javascript.info/size-and-scroll Tamaño de elementos y
+desplazamiento</a>
+</li>
+<li clase="elemento">
+https://es.javascript.info/size-and-scroll-window Tamaño de ventana y
+desplazamiento</a>
+</li>
+<li clase="elemento">
+https://es.javascript.info/coordinates Coordenadas</a>
+</li>
+</ul>
+</div>
+</div>
+</sección>
+<sección>
+<div class="contenedor">
+<h2>Elementos y Selectores</h2>
+<p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. ¡Harum tenetur fugiat corrupti molestiae! Ea quasi voluptatibus vero repellendus distinguio voluptatum voluptatem quam, perspiciatis necessitatibus illum hic ut dolorum tenetur laborum.
+</p>
+
+<div clase="buscar">
+<formulario acción="" clase="buscar__formulario" id="buscar">
+<input type="buscar" nombre="buscar" clase="input" placeholder="Buscar...">
+<botón clase="botón">
+<i clase='bx bx-búsqueda'></i>
+</botón>
+</formulario>
+</div>
+<div class="tarjetas">
+<div clase="tarjeta">
+<div class="tarjeta__encabezado">
+<h2 clase="tarjeta__título">
+Lorem ipsum dolor sit amet consectetur.
+</h2>
+</div>
+<div class="tarjeta__cuerpo">
+<img src=" https://picsum.photos/640/360 " class="card__img" alt="img">
+<p clase="card__paragraph">
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore unde aperiam sapiente repellat! Eum consequuntur, necessitatibus expedita dolorum repudiandae sapiente.
+</p>
+<a href="#" class="botón botón--esquema">
+<span class="button__text">Saber más</span>
+<i class='bx bxs-chevron-botón derecho__icon'></i>
+</a>
+</div>
+</div>
+<div clase="tarjeta">
+<div class="tarjeta__encabezado">
+<h2 clase="tarjeta__título">
+Lorem ipsum dolor sit amet consectetur.
+</h2>
+</div>
+<div class="tarjeta__cuerpo">
+<img src=" https://picsum.photos/640/360 " class="card__img" alt="img">
+<p clase="card__paragraph">
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore unde aperiam sapiente repellat! Eum consequuntur, necessitatibus expedita dolorum repudiandae sapiente.
+</p>
+<a href="#" clase="botón">
+<span class="button__text">Saber más</span>
+<i class='bx bxs-chevron-botón derecho__icon'></i>
+</a>
+</div>
+</div>
+<div clase="tarjeta">
+<div class="tarjeta__encabezado">
+<h2 clase="tarjeta__título">
+Lorem ipsum dolor sit amet consectetur.
+</h2>
+</div>
+<div class="tarjeta__cuerpo">
+<img src=" https://picsum.photos/640/360 " class="card__img" alt="img">
+<p clase="tarjeta__paragraph">
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore unde aperiam sapiente repellat! Eum consequuntur, necessitatibus expedita dolorum repudiandae sapiente.
+</p>
+<a href="#" clase="botón">
+<span class="button__text">Saber más</span>
+<i class='bx bxs-chevron-botón derecho__icon'></i>
+</a>
+</div>
+</div>
+<div clase="tarjeta">
+<div class="tarjeta__encabezado">
+<h2 clase="tarjeta__título">
+Lorem ipsum dolor sit amet consectetur.
+</h2>
+</div>
+<div class="tarjeta__cuerpo">
+<img src=" https://picsum.photos/640/360 " class="card__img" alt="img">
+<p clase="card__paragraph">
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore unde aperiam sapiente repellat! Eum consequuntur, necessitatibus expedita dolorum repudiandae sapiente.
+</p>
+<a href="#" clase="botón">
+<span class="button__text">Saber más</span>
+<i class='bx bxs-chevron-botón derecho__icon'></i>
+</a>
+</div>
+</div>
+<div clase="tarjeta">
+<div class="tarjeta__encabezado">
+<h2 clase="tarjeta__título">
+Lorem ipsum dolor sit amet consectetur.
+</h2>
+</div>
+<div class="tarjeta__cuerpo">
+<img src=" https://picsum.photos/640/360 " class="card__img" alt="img">
+<p clase="card__paragraph">
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore unde aperiam sapiente repellat! Eum consequuntur, necessitatibus expedita dolorum repudiandae sapiente.
+</p>
+<a href="#" clase="botón">
+<span class="button__text">Saber más</span>
+<i class='bx bxs-chevron-botón derecho__icon'></i>
+</a>
+</div>
+</div>
+<div clase="tarjeta">
+<div class="tarjeta__encabezado">
+<h2 clase="tarjeta__título">
+Lorem ipsum dolor sit amet consectetur.
+</h2>
+</div>
+<div class="tarjeta__cuerpo">
+<img src=" https://picsum.photos/640/360 " class="card__img" alt="img">
+<p clase="tarjeta__paragraph">
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore unde aperiam sapiente repellat! Eum consequuntur, necessitatibus expedita dolorum repudiandae sapiente.
+</p>
+<a href="#" clase="botón">
+<span class="button__text">Saber más</span>
+<i class='bx bxs-chevron-botón derecho__icon'></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+</sección>
+</principal>
+<script src="app.js"></script>
+</cuerpo>
+
+</html>
