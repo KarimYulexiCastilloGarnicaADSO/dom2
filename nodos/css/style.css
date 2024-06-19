@@ -46,6 +46,13 @@ p{
     margin: 0 0 var(--margin);
     color: var(--blanco);
 }
+.bg-white {
+  background-color: var(--blanco);
+  color: var(--Mine_Shaft);
+}
+.color-black{
+  color: var(--Mine_Shaft);
+}
 p::first-letter{
     font-size: 1.4rem;
     color: var(--Starship);
