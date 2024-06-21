@@ -12,7 +12,7 @@ data.map((a) => {
     //Creamos los elementos de la card
     const $card = document.createElement('div')
     const $card_header = document.createElement('div')
-    // const $card_title = document.createElement('div')
+    // const $card_title = document.createElement('div')+++++ 
     const $h2 = document.createElement('h2')
     const $card_body = document.createElement('div')
     const $img = document.createElement('img')
