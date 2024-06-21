@@ -96,13 +96,18 @@ li.item:hover a{
     border-radius: var(--border_radius);
     border: none;
 }
-.cards{
+/* .cards{
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+} */
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
 }
 .card{
-    width: 450px;
+    width: auto;
     border: solid 1px var(--Husk);
     border-radius: var(--border_radius);
     margin: 0 auto;
